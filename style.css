@@ -210,8 +210,8 @@ ul{
     }
     .main-map_item{
         padding: 40px 40px;
-        width: 360px;
-        height: 200x;
+        width: auto;
+        height: 200px;
     }
     
     .footer-content-item-info{
@@ -230,3 +230,46 @@ ul{
    
 }
 /* End Responsive 414*/
+
+/* Start Responsive 320*/
+@media only screen and (max-width: 320px) {
+    html, body {
+        font-size: 10px;
+    }
+
+    .main{
+        padding: 0;
+    }
+
+    .container-header {
+        max-width: 32px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-infor-content__ttl {
+        font-size: 15px;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    .main-map_item{
+        padding: 40px 40px;
+        width: 300px;
+        height: 200x;
+    }
+
+    .main-infor-form-item:first-child {
+        flex-direction: column;
+        justify-content: inherit;
+    }
+    
+    .footer-content{
+        height: 220px;
+        background-color: #141414;
+    }
+}
+
+/* End Responsive 320*/
